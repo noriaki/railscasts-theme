@@ -1,15 +1,14 @@
-;;; color-theme-railscasts.el --- Railscasts color theme for GNU Emacs.
+;;; railscasts-theme.el --- Railscasts color theme for GNU Emacs.
 
 ;; Inspired by the brilliant Railscasts theme for TextMate
 
 ;; Copyright (C) 2009 Oleg Shaldybin <oleg.shaldybin@gmail.com>
 
 ;; Author: Oleg Shaldybin
-;; Adapted-By: Yesudeep Mangalapilly
+;; Adapted-By: Yesudeep Mangalapilly, Yuichi TANIKAWA
 ;; Keywords: railscasts color theme
-;; URL: https://github.com/olegshaldybin/color-theme-railscasts
-;; Version: 0.0.2
-;; Package-Requires: ((color-theme "6.6.1"))
+;; URL: https://github.com/itiut/railscasts-theme
+;; Requires: GNU Emacs 24
 
 ;; This file is NOT a part of GNU Emacs.
 
@@ -41,11 +40,7 @@
 
 ;;; Usage:
 ;;
-;; The path in the third line is the path to the railscasts theme .el file.
-;; (require 'color-theme)
-;; (color-theme-initialize)
-;; (load-file "~/.emacs.d/site-lisp/themes/color-theme-railscasts.el")
-;; (color-theme-railscasts)
+;; (load-theme 'railscasts t nil)
 
 ;;; Code:
 
@@ -89,7 +84,6 @@
  '(underline ((t (:underline t))))
  '(minibuffer-prompt ((t (:bold t :foreground "#FF6600")))))
 
-
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
@@ -97,4 +91,4 @@
 
 (provide-theme 'railscasts)
 
-;;; color-theme-railscasts.el ends here
+;;; railscasts-theme.el ends here
