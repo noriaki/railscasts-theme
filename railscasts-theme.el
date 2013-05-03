@@ -70,7 +70,7 @@
  '(paren-face-match-light ((t (:foreground "#FFC66D" :background "#555577"))))
  '(highlight ((t (:background "darkolivegreen"))))
  '(italic ((t (:italic t))))
- '(modeline ((t (:background "#A5BAF1" :foreground "black"))))
+ '(mode-line ((t (:background "#A5BAF1" :foreground "black"))))
  '(modeline-buffer-id ((t (:background "#A5BAF1" :foreground "black"))))
  '(modeline-mousable ((t (:background "#A5BAF1" :foreground "black"))))
  '(modeline-mousable-minor-mode ((t (:background "#A5BAF1" :foreground "black"))))
