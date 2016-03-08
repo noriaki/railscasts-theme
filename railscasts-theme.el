@@ -50,19 +50,19 @@
 (custom-theme-set-faces
  'railscasts
 
- '(default ((t (:background "#232323" :foreground "#E6E1DC"))))
+ '(default ((t (:background "#090909" :foreground "#E6E1DC"))))
 
  '(cursor ((t (:foreground "#FFFFFF"))))
  '(blue ((t (:foreground "blue"))))
  '(bold ((t (:bold t))))
  '(bold-italic ((t (:italic t :bold t))))
  '(fringe ((t (:background "#232323"))))
- '(font-lock-builtin-face ((t (:foreground "#C8C8FF"))))
+ '(font-lock-builtin-face ((t (:foreground "#00C6A6"))))
  '(font-lock-comment-face ((t (:foreground "#BC9458"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#BC9458"))))
  '(font-lock-constant-face ((t (:foreground "#6D9CBE"))))
  '(font-lock-doc-string-face ((t (:foreground "#A5C261"))))
- '(font-lock-function-name-face ((t (:foreground "#FFC66D"))))
+ '(font-lock-function-name-face ((t (:foreground "#6E7AFF"))))
  '(font-lock-keyword-face ((t (:foreground "#CC7833"))))
  '(font-lock-preprocessor-face ((t (:foreground "#CC7833"))))
  '(enh-ruby-op-face ((t (:foreground "#CC7833"))))
@@ -70,7 +70,7 @@
  '(font-lock-string-face ((t (:foreground "#A5C261"))))
  '(enh-ruby-string-delimiter-face ((t (:foreground "#A5C261"))))
  '(font-lock-type-face ((t (:foreground "#6D9CBE"))))
- '(font-lock-variable-name-face ((t (:foreground "#C8C8FF"))))
+ '(font-lock-variable-name-face ((t (:foreground "#00C6A6"))))
  '(font-lock-warning-face ((t (:foreground "Pink"))))
  '(paren-face-match-light ((t (:foreground "#FFC66D" :background "#555577"))))
  '(show-paren-match ((t (:foreground nil :background "#3070FF"))))
@@ -115,7 +115,11 @@
  '(term-color-yellow ((t (:foreground "#ffe870"))))
 
  '(underline ((t (:underline t))))
- '(minibuffer-prompt ((t (:bold t :foreground "#FF6600")))))
+ '(minibuffer-prompt ((t (:bold t :foreground "#FF6600"))))
+
+ '(js2-object-property ((t (:foreground "#AEE0D3"))))
+
+ )
 
 ;;;###autoload
 (when load-file-name
